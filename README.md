@@ -20,3 +20,17 @@ This project is an expense management system that consists of a Streamlit fronte
 4. Start the frontend
    ```commandline
     streamlit run frontend/app.py
+
+### Usage
+
+- Open the Streamlit frontend in your browser.
+
+- Select the date for which you want to add or update expenses.
+
+- Fill in amounts, categories, and notes for multiple expenses.
+
+- Click Submit to save the expenses to the database.
+
+- Use the Analytics tab to view category-wise breakdowns.
+
+- Use the Monthly tab to view total expenses per month.
