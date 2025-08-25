@@ -5,7 +5,8 @@ import requests
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 
-API_URL = "http://localhost:8000"
+# API_URL = "http://localhost:8000"
+API_URL = "https://my-expense-api.onrender.com"
 
 def fill_missing_months(data_dict, start_date, end_date):
     """

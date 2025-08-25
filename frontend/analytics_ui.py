@@ -4,7 +4,8 @@ from datetime import datetime
 import requests
 import pandas as pd
 
-API_URL = "http://localhost:8000"  # ✅ backend
+# API_URL = "http://localhost:8000"
+API_URL = "https://my-expense-api.onrender.com"
 
 def analytics_tab():
     st.header("Analytics by Category")
