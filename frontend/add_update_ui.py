@@ -3,8 +3,8 @@ import streamlit as st
 from datetime import datetime
 import requests
 
-# API_URL = "http://localhost:8000"
-API_URL = "https://my-expense-api.onrender.com"
+API_URL = "http://localhost:8000"
+
 
 def add_update_tab():
     selected_date = st.date_input(
